@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Umów wizytę</title>
+    <style>
+        .zl-url {
+            display: block; /* Upewnij się, że link jest wyświetlany blokowo */
+        }
+    </style>
 </head>
 <body>
-    <div style="display: none;">
-        <a id="zl-url" class="zl-url" href="https://www.znanylekarz.pl/cezary-baka/fizjoterapeuta/poznan" rel="nofollow" data-zlw-doctor="cezary-baka" data-zlw-type="big_with_calendar" data-zlw-opinion="false" data-zlw-hide-branding="true" data-zlw-saas-only="true">Cezary Baka - ZnanyLekarz.pl</a>
-    </div>
+    <a id="zl-url" class="zl-url" href="https://www.znanylekarz.pl/cezary-baka/fizjoterapeuta/poznan" rel="nofollow" data-zlw-doctor="cezary-baka" data-zlw-type="big_with_calendar" data-zlw-opinion="false" data-zlw-hide-branding="true" data-zlw-saas-only="true"></a>
     <script>
-        !function($_x,_s,id​⬤
+        !function($_x,_s,id){
+            var js,fjs=$_x.getElementsByTagName(_s)[0];
+            if(!$_x.getElementById(id)){
+                js = $_x.createElement(_s);
+                js.id = id;
+                js.src = "//platform.docplanner.com/js/widget.js";
+                fjs.parentNode.insertBefore(js​⬤
